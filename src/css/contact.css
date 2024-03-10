@@ -1,0 +1,120 @@
+.contact{
+    background-color: black;
+    
+   
+}
+.contactTitle{
+    color: white;
+    text-align: center;
+    margin-top: 4%;
+    margin-bottom: 3%;
+    width: 51%;
+}
+.contactTitle p{
+    font-size: 1em;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+.contactContainer {
+    background-color: black;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: calc(10px + 1vmin);
+    color: white;
+    flex-wrap: wrap;
+    
+    min-height: 100vh;
+}
+.contactform{
+    width: 40%;
+}
+.contactTitle h1 {
+    font-size: 2em;
+   
+    font-weight: 400;
+}
+
+.contactform label {
+    display: block;
+    margin-bottom: 5px;
+    
+}
+
+.contactform input[type="text"],
+.contactform input[type="email"],
+.contactform textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #000000;
+    color: #ffffff;
+    
+}
+.contactform input[type="text"]:focus,
+.contactform input[type="email"]:focus,
+.contactform textarea:focus {
+    outline: none;
+    border: 1px solid #007bff;
+}
+.form-row {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.contactform .form-row input[type="text"],
+.contactform .form-row input[type="email"] {
+    width: 80%;
+ 
+}
+
+.contactform textarea {
+    width: 100%;
+    height: 150px;
+}
+
+.contactform button {
+    background-color: #000000;
+    color: #fff;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.contactform button:hover {
+    
+    color: #007bff;
+    border: 1px solid #007bff;
+}
+
+#honeypot {
+    display: none;
+}
+
+.required {
+    color: red;
+}
+
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+}
+.formInput{
+    width: 100%;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    font-size: 1em;
+}
+@media screen and (max-width: 768px) {
+    .form-row {
+        flex-wrap: wrap;
+    }
+}

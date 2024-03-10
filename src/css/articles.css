@@ -1,0 +1,22 @@
+
+.articles{
+    background-color: black;
+}
+.articlesContainer{
+    background-color: black;
+    min-height: 100vh;
+    display:flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+.article{
+    display: flex;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+.articleImg img{
+    max-height: 300px;
+    max-width: 300px;
+}

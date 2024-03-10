@@ -1,0 +1,101 @@
+.github{
+    background-color: black;
+    overflow-x: hidden;
+}
+.banner {
+
+    height: 100vh;
+    
+   overflow-y: hidden;
+    overflow-x: hidden;
+}
+.bannerContainer {
+    color: white;
+    text-align: center;
+    margin: 0 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.bannerInfo {
+    position: absolute;
+    width: 100vw;
+    margin-top: 6%;
+    z-index: 100;
+}
+.bannerContainer h1 {
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.bannerContainer h2 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-top: 0;
+}
+
+.bannerContainer img{
+    padding-left: 5px;
+    height: 64px;
+    pointer-events: none;
+}
+.githubProjects{
+    
+}
+.githubProjects img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.githubProject{
+    color:white;
+    min-height: 100vh;
+    margin-top: 3%;
+    margin-left:30%;
+    margin-right:30%;
+}
+.arrows{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20%;
+    
+}
+.arrows h2{
+    font-size: 2rem;
+    font-weight: 400;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+}
+.arrow-up{
+    cursor: pointer;
+    font-size: 2rem;
+    transition: color 0.2s;
+}
+.arrow-down{
+    cursor: pointer;
+    font-size: 2rem;
+    transition: color 0.2s;
+}
+.arrow-down:hover{
+    color: #0a0194;
+}
+.arrow-up:hover{
+    color: #0a0194;
+}
+.bannerContainer a{
+    text-decoration: none;
+    color: #ed4248;
+    cursor: pointer;
+}
+.githubProject p{
+    font-size: 1.5em;
+    font-weight: 300;
+}
+.githubProject a{
+    text-decoration: none;
+    color: #ed4248;
+    cursor: pointer;
+}

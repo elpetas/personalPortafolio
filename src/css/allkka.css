@@ -1,0 +1,55 @@
+.allkka{
+    background-color: black;
+}
+.allkkaContainer{
+    background-color: black;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    align-items: center;
+}
+.allkkaDescription{
+    text-align: center;
+    padding: 20px;
+}
+.allkkaDescription img{
+    margin-top: -5%;
+}
+.allkkaDescription p{
+    font-size: 1.5rem;
+    margin-top: -8%;
+    font-weight: 300;
+}
+.allkkaCaroussel{
+   
+    width: 50%;
+
+    padding: 20px;
+}
+
+.demoSpan{
+    text-decoration: underline;
+    color: #ed4248;
+    cursor: pointer;
+}
+.captureItem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+
+.captureItem img {
+    max-width: 80%;
+    max-height: 80%;
+}
+.allkkaDemo h2, .allkkaCaroussel h2{
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
